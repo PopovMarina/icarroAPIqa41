@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed08d42-2951-4953-8c3d-9150b6740b2c" name="Changes" comment="pop xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/BaseAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/CarsAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/UserAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dto/CitiesDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddNewCarTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTests.java" afterDir="false" />
+    <list default="true" id="9ed08d42-2951-4953-8c3d-9150b6740b2c" name="Changes" comment="Webinar_15_API">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dto/AllCarsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dto/BookedPeroidsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dto/CarsDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dto/CityInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GetAllCitiesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GetMyCarsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/CarsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/CarsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/UserAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dto/CitiesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dto/CitiesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddNewCarTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +50,32 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AddNewCarTests.executor": "Run",
     "TestNG.AddNewCarTests.test.executor": "Run",
+    "TestNG.GetAllCitiesTests.getAllCitiesTest.executor": "Run",
+    "TestNG.GetAllCitiesTests.test.executor": "Run",
+    "TestNG.GetMyCarsTests.getMyCars.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AddNewCarTests.test">
-    <configuration name="AddNewCarTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GetMyCarsTests.getMyCars">
+    <configuration name="GetAllCitiesTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="icarroAPIqa41" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="dto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddNewCarTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GetAllCitiesTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -68,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddNewCarTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetAllCitiesTests.getAllCitiesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="icarroAPIqa41" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +92,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddNewCarTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GetAllCitiesTests" />
+      <option name="METHOD_NAME" value="getAllCitiesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllCitiesTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="icarroAPIqa41" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GetAllCitiesTests" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMyCarsTests.getMyCars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="icarroAPIqa41" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GetMyCarsTests" />
+      <option name="METHOD_NAME" value="getMyCars" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,8 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddNewCarTests.test" />
-        <item itemvalue="TestNG.AddNewCarTests" />
+        <item itemvalue="TestNG.GetMyCarsTests.getMyCars" />
+        <item itemvalue="TestNG.GetAllCitiesTests.getAllCitiesTest" />
+        <item itemvalue="TestNG.GetAllCitiesTests.test" />
+        <item itemvalue="TestNG.GetAllCitiesTests" />
       </list>
     </recent_temporary>
   </component>
@@ -117,11 +170,20 @@
       <option name="project" value="LOCAL" />
       <updated>1712510207687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Webinar_15_API">
+      <option name="closed" value="true" />
+      <created>1712782412733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712782412733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pop xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="pop xml" />
+    <MESSAGE value="Webinar_15_API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Webinar_15_API" />
   </component>
 </project>

@@ -21,14 +21,10 @@ public class BaseTests {
     @BeforeSuite
     public void getToken() {
 
-        Response response = userAPI.getResponceLoginUser(user);
+        Response response = userAPI.getResponseLoginUser(user);
         System.out.println(response.getStatusCode());
         token = userAPI.getTokenFromResponse(response);
         System.out.println(token);
     }
 
-
-    /*
-
-     */
 }

@@ -7,7 +7,7 @@ import io.restassured.response.Response;
 public class UserAPI extends BaseAPI {
 
     String uriLogin = "/v1/user/login/usernamepassword";
-    public Response getResponceLoginUser(UserDTO user) {
+    public Response getResponseLoginUser(UserDTO user) {
         return RestAssured.given()
                 .body(user)
                 .when()
